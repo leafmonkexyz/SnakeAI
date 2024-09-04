@@ -1,6 +1,6 @@
 # Snake AI
 # Current Version 1.0
-## Licensed under MIT license - so you can use this however you please :)
+
 ## Dependencies
 There exist three dependencies:
 
@@ -12,7 +12,7 @@ To install dependencies, run `pip3 install -r requirements.txt`
 
 ## Getting started
 
-1. Clone the repo or download it in someway `git clone https://github.com/Chrispresso/SnakeAI.git`
+1. Clone the repo or download it in someway `git clone https://github.com/leafmonkexyz/SnakeAI.git`
 2. The two places you will ever really need to change stuff unless you feel like going crazy are `settings.py`, which control the hyperparameters of the Neural Network and Genetic Algorithm and `snake_app.py`, which is the graphics and GA.
 3. Pick some things you would like to test with under `settings.py`. If you change the `board_size` drastically you will probably want to change `SQUARE_SIZE` under `snake_app.py`. The current settings when you first clone are the settings I used for training a snake to solve 10x10 and the 50x50 grids. Play around with this stuff if you want, you can always create another population in a new command window that use different settings. 
 4. Head over to `snake_app.py` and adjust `show=True, fps=200` if you would like. `show` controls whether or not to display the snakes learning. FPS in the case of show is capped at your monitor refresh. Definitely faster to train with `show=False, fps=1000`.
